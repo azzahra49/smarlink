@@ -20,12 +20,16 @@
         })();
     </script>
 
-    <!-- Redirect otomatis setelah 2 detik -->
+    <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="refresh" content="2;url=https://smartsecuredtlink.com/?ID=262600&subid=histats">
-
+    <title>Mengalihkan...</title>
 </head>
 <body>
-    <h2>Sedang mengalihkan...</h2>
-    <p>Mohon tunggu sebentar...</p>
+    <h2>Anda sedang dialihkan...</h2>
+    <p>Mohon tunggu sebentar.</p>
 </body>
 </html>
