@@ -20,9 +20,14 @@
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
         })();
     </script>
-
-    <!-- Redirect otomatis setelah 2 detik dengan parameter tracking -->
-    <meta http-equiv="refresh" content="2;url=https://smartsecuredtlink.com/SXqI9LRJ2S?ref=histats">
+    
+    <!-- Histats mencatat redirect otomatis -->
+    <script>
+        setTimeout(function() {
+            _Hasync.push(['Histats.track_hits', 'Auto Redirect to SmartSecuredLink']);
+            window.location.href = "https://smartsecuredtlink.com/SXqI9LRJ2S?ref=histats";
+        }, 2000);
+    </script>
 </head>
 <body>
     <h2>Sedang mengalihkan...</h2>
@@ -40,7 +45,7 @@
             var link = document.getElementById("redirectLink");
             if (link) {
                 link.addEventListener("click", function() {
-                    _Hasync.push(['Histats.track_hits', 'Outbound Click to SmartSecuredLink']);
+                    _Hasync.push(['Histats.track_hits', 'Manual Redirect Click']);
                 });
             }
         });
