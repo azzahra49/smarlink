@@ -11,35 +11,39 @@
         _Hasync.push(['Histats.start', '1,4933488,4,18,200,40,00011111']);
         _Hasync.push(['Histats.fasi', '1']);
         _Hasync.push(['Histats.track_hits', '']);
+
         (function() {
             var hs = document.createElement('script');
-            hs.type = 'text/javascript'; hs.async = true;
+            hs.type = 'text/javascript';
+            hs.async = true;
             hs.src = '//s10.histats.com/js15_as.js';
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
         })();
     </script>
 
-    <!-- Redirect Otomatis Setelah 2 Detik -->
+    <!-- Redirect otomatis setelah 2 detik dengan parameter tracking -->
     <meta http-equiv="refresh" content="2;url=https://smartsecuredtlink.com/SXqI9LRJ2S?ref=histats">
-
 </head>
 <body>
     <h2>Sedang mengalihkan...</h2>
     <p>Mohon tunggu sebentar...</p>
 
     <!-- Link Manual Jika Redirect Gagal -->
-    <p><a id="redirectLink" href="https://smartsecuredtlink.com/SXqI9LRJ2S?ref=histats">Klik di sini jika tidak otomatis</a></p>
+    <p>
+        <a id="redirectLink" href="https://smartsecuredtlink.com/SXqI9LRJ2S?ref=histats">
+            Klik di sini jika tidak otomatis
+        </a>
+    </p>
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             var link = document.getElementById("redirectLink");
             if (link) {
                 link.addEventListener("click", function() {
-                    _Hasync.push(['Histats.track_hits', 'Manual Redirect Click']);
+                    _Hasync.push(['Histats.track_hits', 'Outbound Click to SmartSecuredLink']);
                 });
             }
         });
     </script>
-
 </body>
 </html>
